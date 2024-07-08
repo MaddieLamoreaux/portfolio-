@@ -1,0 +1,198 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #111;
+}
+
+.navbar-brand.neon-text {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+}
+
+.nav-link {
+    color: #0ff !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+    background-color: #0ff !important;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+    border-radius: 5px;
+}
+
+.neon-text {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+.neon-border {
+    border: 2px solid #0ff;
+    box-shadow: 0 0 15px #0ff;
+}
+
+#about {
+    text-align: left;
+    color: #fff;
+    margin-top: 50px;
+}
+
+#about h2 {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+}
+
+#about p {
+    font-size: 1.2em;
+}
+
+.navbar {
+    background-color: #111;
+}
+
+.navbar-brand.neon-text {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff, 0 0 40px #0ff, 0 0 50px #0ff, 0 0 60px #0ff, 0 0 70px #0ff;
+}
+
+.nav-link {
+    color: #0ff !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+    background-color: #0ff !important;
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+    border-radius: 5px;
+}
+
+.hero-section {
+    position: relative;
+    background: #000;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+    z-index: 0;
+}
+
+.hero-content {
+    z-index: 1;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    color: #0ff;
+    text-shadow: 0 0 20px #0ff;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.stars, .stars2, .stars3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-size: contain;
+    z-index: 0;
+    pointer-events: none; /* Ensure stars are not interactive */
+}
+
+.stars {
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Ccircle cx="50" cy="50" r="2" fill="white" /%3E%3C/svg%3E') repeat;
+    animation: animStar 50s linear infinite;
+    opacity: 0.5;
+}
+
+.stars2 {
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Ccircle cx="50" cy="50" r="1.5" fill="white" /%3E%3C/svg%3E') repeat;
+    animation: animStar 100s linear infinite;
+    opacity: 0.3;
+}
+
+.stars3 {
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"%3E%3Ccircle cx="50" cy="50" r="1" fill="white" /%3E%3C/svg%3E') repeat;
+    animation: animStar 150s linear infinite;
+    opacity: 0.2;
+}
+
+@keyframes animStar {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+.main-content {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
+}
+
+.intro-section h2, #projects h2 {
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
+}
+
+.project-card {
+    background-color: #111;
+    border: 1px solid #0ff;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(0, 255, 255, 1);
+}
+
+.project-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card .card-title {
+    color: #0ff;
+}
+
+.project-card .btn-primary {
+    background-color: #0ff;
+    border: none;
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+
+    .intro-section h2, #projects h2 {
+        font-size: 1.5em;
+    }
+}
