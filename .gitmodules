@@ -6,7 +6,3 @@
 	path = proj/Tic Tac Toe/Tic Tac Toe/Tic Tac Toe/m402-tic-tac-toe-MaddieLamoreaux
 	url = https://github.com/MaddieLamoreaux/tictactoe.git
 
-[submodule "projects/login"]
-  path = projects/login
-  url = https://github.com/MaddieLamoreaux/login.git
-
