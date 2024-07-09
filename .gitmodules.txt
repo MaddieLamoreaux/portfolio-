@@ -1,3 +1,0 @@
-[submodule "Book/Booklist"]
-    path = Book/Booklist
-    url = https://github.com/MaddieLamoreaux/Book.git
