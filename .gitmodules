@@ -2,3 +2,6 @@
 	path = Book/Booklist
 	url = https://github.com/MaddieLamoreaux/Book.git
 	
+[submodule "proj/Tic Tac Toe/Tic Tac Toe/m402-tic-tac-toe-MaddieLamoreaux"]
+	path = proj/Tic Tac Toe/Tic Tac Toe/m402-tic-tac-toe-MaddieLamoreaux
+	url = https://github.com/MaddieLamoreaux/m402-tic-tac-toe.git
