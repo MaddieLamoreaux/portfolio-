@@ -1,0 +1,4 @@
+exclude:
+  - "node_modules"
+  - "projects/login/node_modules"
+
